@@ -11,9 +11,8 @@ This application allows users to upload an invoice image and get a detailed resp
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Msrevalli/Gemini_Models_Test.git
-   
-    cd Multilaguage_Invoice_Extractor_APP
+    git clone https://github.com/yourusername/MultiLanguageInvoiceExtractor.git
+    cd MultiLanguageInvoiceExtractor
     ```
 
 2. Install the required packages:
@@ -44,6 +43,8 @@ This application allows users to upload an invoice image and get a detailed resp
 - `app.py`: The main Streamlit application.
 - `requirements.txt`: The list of dependencies required to run the application.
 - `README.md`: This readme file providing information about the project.
+- `.env`: File containing environment variables (not included in the repository).
+- `.gitignore`: Specifies files and directories to be ignored by Git.
 
 ## Dependencies
 
@@ -52,3 +53,6 @@ This application allows users to upload an invoice image and get a detailed resp
 - `Pillow`: Python Imaging Library to open and manipulate image files.
 - `google-generativeai`: Google's Generative AI library for generating responses based on input prompts.
 
+## License
+
+This project is licensed under the MIT License.
